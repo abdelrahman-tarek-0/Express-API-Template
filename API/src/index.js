@@ -1,4 +1,5 @@
 const express = require('express')
+const routes = require('./routes/index.routes')
 const cors = require('cors')
 const morgan = require('morgan')
 const helmet = require('helmet')
@@ -18,13 +19,13 @@ app.use(
     legacyHeaders: false,
   })
 )
-
 app.use(helmet())
 app.use(express.json())
 app.use(cors())
 
-app.get('/api', (req, res) => {
-  res.send('Hello World')
+app.use('/api',routes)
+app.get('/', (req, res) => {
+  res.send('welcome back :)')
 })
 
 // error handling
