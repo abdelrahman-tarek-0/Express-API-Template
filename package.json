@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:api": "node api/src/index.js",
+    "dev:api": "nodemon api/src/index.js",
     "eslint": "eslint --ext .js,.jsx **/*.js  --fix",
     "prettier": "prettier --write **/*.{js,css,html}",
     "format": "npm run prettier && npm run eslint"

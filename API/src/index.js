@@ -5,10 +5,11 @@ const morgan = require('morgan')
 const helmet = require('helmet')
 const expressRateLimit = require('express-rate-limit')
 const errorHandlerMiddleware = require('../middleware/error.middleware.js')
+const config = require('./config')
 
 // config the server
 const app = express()
-const port = 3000
+const PORT = config.port | 3000
 
 app.use(morgan('dev'))
 app.use(
@@ -36,7 +37,7 @@ app.use((_req, res) => {
   })
 })
 
-app.listen(port, () => {
+app.listen(PORT, () => {
   console.log('server is running')
-  console.log(`on localhost:${port}`)
+  console.log(`on localhost:${PORT}`)
 })
