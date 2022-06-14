@@ -3,7 +3,7 @@ const cors = require('cors');
 const morgan = require('morgan');
 const helmet = require('helmet');
 const expressRateLimit = require('express-rate-limit');
-// const error_handler_middleware = require('../middleware/error.middleware');
+const error_handler_middleware = require('../middleware/error.middleware.js');
 
 
 // config the server 
@@ -12,21 +12,23 @@ const port = 3000;
 
 app.use(morgan('dev'));
 app.use(expressRateLimit({
-    windowMs: 1 * 60 * 1000,
-    max: 100,
+    windowMs: 60 * 1000,
+    max: 10,
     standardHeaders: true,
 	legacyHeaders: false
 }));
+
 app.use(helmet());
 app.use(express.json());
 app.use(cors())
 
-app.use('/api', (req,res)=>{
+app.get('/api', (req,res)=>{
     res.send('Hello World');
 });
 
+
 //error handling
-// app.use(error_handler_middleware);
+app.use(error_handler_middleware);
 app.use((_req, res) => {
     res.status(404).json({
         message: 'API route not found (check the documentation)',
