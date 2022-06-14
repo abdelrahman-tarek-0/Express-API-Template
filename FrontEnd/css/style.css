@@ -1,4 +1,7 @@
-/* center div with id btn */
+/* center the bnt in the middle of the screen */
 #btn {
-  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

@@ -17,5 +17,6 @@ module.exports = {
     'no-console': 0,
     'no-var': 'error',
     'prefer-const': 'error',
+    'new-cap': 0,
   },
 }

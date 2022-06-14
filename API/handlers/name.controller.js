@@ -1,5 +1,5 @@
-const name = (req,res)=>{
-    res.json('name api route');
+const name = (req, res) => {
+  res.json('name api route')
 }
 
-module.exports = {name};
+module.exports = { name }
