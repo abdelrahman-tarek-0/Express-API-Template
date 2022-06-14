@@ -12,8 +12,8 @@ const port = 3000;
 
 app.use(morgan('dev'));
 app.use(expressRateLimit({
-    windowMs: 60 * 1000,
-    max: 10,
+    windowMs: 30 * 1000,
+    max: 15,
     standardHeaders: true,
 	legacyHeaders: false
 }));
