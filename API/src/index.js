@@ -5,7 +5,7 @@ const morgan = require('morgan')
 const helmet = require('helmet')
 const expressRateLimit = require('express-rate-limit')
 const errorHandlerMiddleware = require('../middleware/error.middleware.js')
-const config = require('./config')
+const config = require('../config')
 
 // config the server
 const app = express()
@@ -20,13 +20,14 @@ app.use(
     legacyHeaders: false,
   })
 )
+
 app.use(helmet())
 app.use(express.json())
 app.use(cors())
 
 app.use('/api',routes)
 app.get('/', (req, res) => {
-  res.send('welcome back :)')
+  res.json('welcome back :)')
 })
 
 // error handling
