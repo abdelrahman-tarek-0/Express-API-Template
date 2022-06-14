@@ -5,7 +5,7 @@
 -   Download and install [node.js](https://nodejs.org/en/)
 
 ## API Endpoints
-_name_ <br />
+_name_ <br/>
 returns 'name api route' this is manly for the test
 <br />
 ```http
