@@ -1,0 +1,12 @@
+{
+  "name": "li-su-project",
+  "version": "1.0.0",
+  "description": "complete log-in & sign-up project both back-end and front-end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:api": "node api/src/index.js"
+  },
+  "author": "https://github.com/abdelrahman-tarek-0",
+  "license": "ISC"
+}
