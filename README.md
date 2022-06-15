@@ -59,10 +59,7 @@ npm run dev
 ```
 ## Directory tree
 <pre>
-├───API 
-│   ├───handlers 
-│   ├───middleware 
-│   └───src 
+Directory
 ├───API
 │   ├───handlers
 │   ├───middleware
