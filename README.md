@@ -1,5 +1,6 @@
 # Basic template for node back-end project 
 
+Note: this project is under development
 
 ## Download the following
 -   Download and install [node.js](https://nodejs.org/en/)
