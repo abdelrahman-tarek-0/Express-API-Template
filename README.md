@@ -17,10 +17,16 @@ GET localhost:3000/api/name
 ## To start the project 
 
 - Start the server to start using the api
-
+ 
+In the root directory
 ```bash
 npm run start:api
 ```
+In the API directory
+```bash
+npm run start
+```
+
 
 ## Environment Variables
 
@@ -42,7 +48,12 @@ npm run format
 ```
 
 #### To run the nodemon to watch for any changes in the dev phase
+
+- In the root directory
 ```bash
 npm run dev:api
 ```
-
+- In the API directory
+```bash
+npm run dev
+```
