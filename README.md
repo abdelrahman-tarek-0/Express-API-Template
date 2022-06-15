@@ -58,19 +58,15 @@ npm run dev:api
 npm run dev
 ```
 ## Directory tree
-<<<<<<< HEAD
 <pre>
 ├───API 
 │   ├───handlers 
 │   ├───middleware 
 │   └───src 
-=======
-
 ├───API
 │   ├───handlers
 │   ├───middleware
 │   └───src
->>>>>>> 5460939db68f1d5cedf1f7806f9b1f0ee684d5df
 │       └───routes
 │           └───APIs
 └───FrontEnd
@@ -78,7 +74,4 @@ npm run dev
     ├───css
     ├───html
     └───js
-<<<<<<< HEAD
 </pre>
-=======
->>>>>>> 5460939db68f1d5cedf1f7806f9b1f0ee684d5df
