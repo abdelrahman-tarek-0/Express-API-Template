@@ -57,3 +57,16 @@ npm run dev:api
 ```bash
 npm run dev
 ```
+## Directory tree
+
+├───API
+│   ├───handlers
+│   ├───middleware
+│   └───src
+│       └───routes
+│           └───APIs
+└───FrontEnd
+    ├───assets
+    ├───css
+    ├───html
+    └───js
