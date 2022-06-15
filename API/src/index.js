@@ -27,7 +27,7 @@ app.use(cors())
 
 app.use('/api', routes)
 app.get('/', (req, res) => {
-   res.json('welcome back :)')
+   res.json({message:'welcome back :)'})
 })
 
 // error handling
