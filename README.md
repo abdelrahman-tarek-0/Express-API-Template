@@ -17,6 +17,7 @@ Future plans:
 - add a database (mongoDB or postgreSQL)
 - add a database migration system
 - add a authentication system
+- add test unit with jasmine or jest
 <br />
 
 
