@@ -13,12 +13,12 @@ const PORT = config.port | 3000
 
 app.use(morgan('dev'))
 app.use(
-  expressRateLimit({
-    windowMs: 30 * 1000,
-    max: 15,
-    standardHeaders: true,
-    legacyHeaders: false,
-  })
+   expressRateLimit({
+      windowMs: 30 * 1000,
+      max: 15,
+      standardHeaders: true,
+      legacyHeaders: false,
+   })
 )
 
 app.use(helmet())
@@ -27,18 +27,18 @@ app.use(cors())
 
 app.use('/api', routes)
 app.get('/', (req, res) => {
-  res.json('welcome back :)')
+   res.json('welcome back :)')
 })
 
 // error handling
 app.use(errorHandlerMiddleware)
 app.use((_req, res) => {
-  res.status(404).json({
-    message: 'API route not found (check the documentation)',
-  })
+   res.status(404).json({
+      message: 'API route not found (check the documentation)',
+   })
 })
 
 app.listen(PORT, () => {
-  console.log('server is running')
-  console.log(`on localhost:${PORT}`)
+   console.log('server is running')
+   console.log(`on localhost:${PORT}`)
 })
