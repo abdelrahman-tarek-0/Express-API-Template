@@ -10,14 +10,17 @@ contain the following:
 - "cors" CORS is a node.js package for providing a Connect/Express middleware that can be used to enable Cross-origin resource sharing with various options, more info [cors](https://www.npmjs.com/package/cors)
 
 Notes:
+<pre>
 - this project is under development.
 - anyone can contribute to this project and help to improve it.
-
+</pre>
 Future plans:
-- add a database (mongoDB or postgreSQL)
-- add a database migration system
-- add a authentication system
-- add test unit with jasmine or jest
+<pre>
+- add a database (mongoDB or postgreSQL) ❌
+- add a database migration system        ❌
+- add a authentication system            ❌
+- add unit test                          ✅
+</pre>
 <br />
 
 
@@ -80,14 +83,19 @@ npm run dev
 <pre>
 Directory
 ├───API
-│   ├───handlers
-│   ├───middleware
+│   ├───spec
+│   │   └───support
 │   └───src
-│       └───routes
-│           └───APIs
-└───FrontEnd
-    ├───assets
-    ├───css
-    ├───html
-    └───js
+│       ├───handlers
+│       ├───helpers
+│       ├───middleware
+│       ├───routes
+│       │   └───APIs
+│       └───__test__
+├───FrontEnd
+│   ├───assets
+│   ├───css
+│   ├───html
+│   └───js
+└───spec
 </pre>
