@@ -4,8 +4,8 @@ const cors = require('cors')
 const morgan = require('morgan')
 const helmet = require('helmet')
 const expressRateLimit = require('express-rate-limit')
-const errorHandlerMiddleware = require('../middleware/error.middleware.js')
-const config = require('../config')
+const errorHandlerMiddleware = require('./middleware/error.middleware.js')
+const config = require('./config')
 
 // config the server
 const app = express()
