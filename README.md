@@ -17,9 +17,9 @@ Notes:
 
 Future plans:
 - add a database (mongoDB or postgreSQL) ❌
-- add a database migration system $~~~~~~~~~~~~~$❌
-- add a authentication system $~~~~~~~~~~~~~~~~~~~~$❌
-- add unit test $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$✅
+- add a database migration system ❌
+- add a authentication system ❌
+- add unit test ✅
 <br />
 
 
