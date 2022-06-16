@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "jasmine": "^4.2.0",
+    "jasmine-spec-reporter": "^7.0.0",
     "supertest": "^6.2.3"
   }
 }
