@@ -92,10 +92,10 @@ Directory
 │       ├───routes
 │       │   └───APIs
 │       └───__test__
-├───FrontEnd
-│   ├───assets
-│   ├───css
-│   ├───html
-│   └───js
-└───spec
+└───FrontEnd
+    ├───assets
+    ├───css
+    ├───html
+    └───js
+
 </pre>
