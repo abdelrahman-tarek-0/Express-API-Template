@@ -1,5 +1,4 @@
 # A basic template for node back-end project 
-
 contain the following: 
 - "eslint" ESLint a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code. In many ways with configuration (google style, prettier) check the '.eslintrc.js' file for more information also you can find the docs here [eslint](https://eslint.org/)
 - "prettier" code style formatter with configuration (default for HTML, CSS, and JS formate) check the '.prettierrc.json' file for more information also you can find the docs here [prettier](https://prettier.io/)
@@ -8,19 +7,19 @@ contain the following:
 - "express-rate-limit" for setting a limit on the requests, more info [express-rate-limit](https://www.npmjs.com/package/express-rate-limit)
 - "dotenv" module that loads environment variables from a .env file , more info [dotenv](https://www.npmjs.com/package/dotenv)
 - "cors" CORS is a node.js package for providing a Connect/Express middleware that can be used to enable Cross-origin resource sharing with various options, more info [cors](https://www.npmjs.com/package/cors)
+- "jasmine" for testing the code, more info [jasmine](https://www.npmjs.com/package/jasmine)
+- "jasmine-spec-reporter" for better test readability, more info [jasmine-spec-reporter](https://www.npmjs.com/package/jasmine-spec-reporter)
+- "supertest" to simulate a request for the testing, more info [supertest](https://www.npmjs.com/package/supertest)
 
 Notes:
-<pre>
 - this project is under development.
 - anyone can contribute to this project and help to improve it.
-</pre>
+
 Future plans:
-<pre>
 - add a database (mongoDB or postgreSQL) ❌
-- add a database migration system        ❌
-- add a authentication system            ❌
-- add unit test                          ✅
-</pre>
+- add a database migration system $~~~~~~~~~~~~~$❌
+- add a authentication system $~~~~~~~~~~~~~~~~~~~~$❌
+- add unit test $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$✅
 <br />
 
 
@@ -97,5 +96,4 @@ Directory
     ├───css
     ├───html
     └───js
-
 </pre>
