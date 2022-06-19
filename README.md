@@ -89,10 +89,10 @@ Directory
 │       ├───helpers
 │       ├───middleware
 │       ├───routes
-│       │   ├───APIs
-│       │   └───test
-│       │       └───APIs
-│       └───test
+│       │   └───APIs
+│       └───tests
+│           └───routes
+│               └───APIs
 └───FrontEnd
     ├───assets
     ├───css
